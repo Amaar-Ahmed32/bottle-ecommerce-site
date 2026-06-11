@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HydroVibe | Node Catalog</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">HYDRO<span>VIBE</span></a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="shop.html" class="nav-link active">Shop</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <input type="text" placeholder="Search tech..." class="search-bar">
+                <a href="cart.html" class="cart-icon-wrapper">
+                    🛒 <span class="cart-badge" id="cartBadge">0</span>
+                </a>
+                <div class="menu-toggle" id="menuToggle">☰</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container section-padding">
+        <div class="shop-layout">
+            
+            <aside class="filter-sidebar">
+                <div class="filter-group">
+                    <h3 class="filter-title">Classification</h3>
+                    <div class="filter-options">
+                        <label><input type="checkbox" checked> Insulated Alloy</label>
+                        <label><input type="checkbox"> Kinetic Shaker</label>
+                        <label><input type="checkbox"> Thermal Core</label>
+                    </div>
+                </div>
+                <div class="filter-group">
+                    <h3 class="filter-title">Credits Range</h3>
+                    <input type="range" class="price-slider" min="10" max="100" value="75">
+                    <div style="display:flex; justify-content:space-between; margin-top:0.5rem; color:var(--text-muted); font-size:0.85rem;">
+                        <span>$10</span>
+                        <span>$100</span>
+                    </div>
+                </div>
+            </aside>
+
+            <section>
+                <div class="products-grid">
+                    <div class="product-card" data-id="1">
+                        <div class="product-img-holder">
+                            <a href="product-detail.html"><img src="https://images.unsplash.com/photo-1523362628745-0c100150b504?auto=format&fit=crop&w=400&q=80" alt="Matrix Item"></a>
+                        </div>
+                        <div class="product-meta">
+                            <h3 class="product-title">Vibe-Flask Neon Neon</h3>
+                            <div class="product-rating">★★★★★</div>
+                            <div class="product-price-row">
+                                <span class="product-price">$39.99</span>
+                                <button class="btn add-to-cart-btn">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card" data-id="2">
+                        <div class="product-img-holder">
+                            <a href="product-detail.html"><img src="https://images.unsplash.com/photo-1618506469810-282bef2b30b3?auto=format&fit=crop&w=400&q=80" alt="Matrix Item"></a>
+                        </div>
+                        <div class="product-meta">
+                            <h3 class="product-title">Quantum Shaker Pro</h3>
+                            <div class="product-rating">★★★★☆</div>
+                            <div class="product-price-row">
+                                <span class="product-price">$29.99</span>
+                                <button class="btn add-to-cart-btn">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card" data-id="3">
+                        <div class="product-img-holder">
+                            <a href="product-detail.html"><img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=400&q=80" alt="Matrix Item"></a>
+                        </div>
+                        <div class="product-meta">
+                            <h3 class="product-title">Titanium Stealth Core</h3>
+                            <div class="product-rating">★★★★★</div>
+                            <div class="product-price-row">
+                                <span class="product-price">$59.99</span>
+                                <button class="btn add-to-cart-btn">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card" data-id="4">
+                        <div class="product-img-holder">
+                            <a href="product-detail.html"><img src="https://images.unsplash.com/photo-1597687210367-94943962dc25?auto=format&fit=crop&w=400&q=80" alt="Matrix Item"></a>
+                        </div>
+                        <div class="product-meta">
+                            <h3 class="product-title">HyperFlo Glitch Glass</h3>
+                            <div class="product-rating">★★★☆☆</div>
+                            <div class="product-price-row">
+                                <span class="product-price">$24.99</span>
+                                <button class="btn add-to-cart-btn">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card" data-id="5">
+                        <div class="product-img-holder">
+                            <a href="product-detail.html"><img src="https://images.unsplash.com/photo-1575844264771-8920810cd9af?auto=format&fit=crop&w=400&q=80" alt="Matrix Item"></a>
+                        </div>
+                        <div class="product-meta">
+                            <h3 class="product-title">Magma Thermal Vessel</h3>
+                            <div class="product-rating">★★★★★</div>
+                            <div class="product-price-row">
+                                <span class="product-price">$49.99</span>
+                                <button class="btn add-to-cart-btn">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-card" data-id="6">
+                        <div class="product-img-holder">
+                            <a href="product-detail.html"><img src="https://images.unsplash.com/photo-1589362400099-2a439da122c2?auto=format&fit=crop&w=400&q=80" alt="Matrix Item"></a>
+                        </div>
+                        <div class="product-meta">
+                            <h3 class="product-title">Chrono Pulse Bottle</h3>
+                            <div class="product-rating">★★★★☆</div>
+                            <div class="product-price-row">
+                                <span class="product-price">$34.99</span>
+                                <button class="btn add-to-cart-btn">Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="index.html" class="logo" style="display:inline-block; margin-bottom:1rem;">HYDRO<span>VIBE</span></a>
+                <p style="color: var(--text-muted);">Next-generation hardware deployment for hydration dynamics.</p>
+            </div>
+            <div>
+                <h4 class="footer-heading">Inventory</h4>
+                <ul class="footer-links">
+                    <li><a href="shop.html">Insulated Alloys</a></li>
+                    <li><a href="shop.html">Kinetic Shakers</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-heading">Company</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Lab Logs</a></li>
+                    <li><a href="#">Support Hub</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-heading">Comms Channel</h4>
+                <form class="newsletter-form" onsubmit="event.preventDefault();">
+                    <input type="email" placeholder="Enter network node email..." class="newsletter-input">
+                    <button class="btn">Join</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 HydroVibe Logistics Lab. Terminal clearance verified.
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
